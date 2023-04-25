@@ -1,0 +1,70 @@
+.Reg__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+.Reg__content{
+    background-color: #96ECFF;
+    border-radius: 9px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+.Reg__title{
+    text-transform: uppercase;
+}
+.Reg__content__form__title{
+    color: #142d78;
+    font-family: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+}
+.Reg__content_form_logo{
+  /*  block-size: 81px;*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+.Reg__content__form__inputs{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+}
+.Reg__content__form__btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Reg__content__form__btns__enter{
+    background-color:#142d78;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:6px 20px;
+}
+.Reg__content__form__btns__enter:hover{
+    background: #4633a8;
+}
+
+.Reg__content__form__btns__reg{
+    background-color:#142d78;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	padding:6px 45px;
+}
+.Reg__content__form__btns__reg:hover{
+    background: #4633a8;
+}
