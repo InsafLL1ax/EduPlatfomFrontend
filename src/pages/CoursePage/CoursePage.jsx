@@ -13,18 +13,13 @@ export const CoursePage = () => {
                         <div className="course-header-block_btnTitle-btn">Добавить</div>
                     </div>
                     <div className='course-header-block_subsInfoBtn'>
-                        <span className='course-header-block_subsInfoBtn-subs'>Подписчики: 97</span>
-                        <div className='course-header-block_subsInfoBtn-btn'>Посмотреть</div>
                     </div>
                 </div>
                 <div className="course-lessons-list">
                     <div className="course-lessons-list-item">
                         <div className="course-lessons-list-item-title">
-                            Занятие №1
-                        </div>
-                        <div className="course-lessons-list-item-btn">
-                            Редактировать
-                        </div>
+                           Урок №1
+                        </div>                       
                     </div>
                 </div>
             </div>

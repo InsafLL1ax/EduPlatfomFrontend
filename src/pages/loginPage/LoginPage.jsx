@@ -2,6 +2,7 @@ import React from 'react'
 import './loginPage.css';
 //<img src="logo1.png" alt=""width="250"/>
 import { useNavigate } from 'react-router-dom';
+import { PAGES } from '../../constants';
 export const LoginPage = () => {
   const navigate = useNavigate();
   return (
@@ -24,7 +25,7 @@ export const LoginPage = () => {
           </div>
 
           <div className="loginPage__content__form__btns">
-            <div className="loginPage__content__form__btns__enter">
+            <div className="loginPage__content__form__btns__enter" onClick={()=>navigate(PAGES.PERSONAL,{replace:true})}>
               войти
             </div>
             <div className="loginPage__content__form__btns__reg" onClick={()=>navigate("/regPage",{replace:true})}>

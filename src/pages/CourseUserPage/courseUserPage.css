@@ -3,21 +3,21 @@
     flex-direction: row;
 }
 
-.course-header-block {
+.course-user-header-block {
     display: flex;
     margin: 50px 50px;
     gap: 200px;
 }
 
-.course-header-block_btnTitle {
+.course-user-header-block_btnTitle {
     display: flex;
 }
 
-.course-header-block_subsInfoBtn {
+.course-user-header-block_subsInfoBtn {
     display: flex;
 }
 
-.course-header-block_btnTitle-title {
+.course-user-header-block_btnTitle-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -27,14 +27,7 @@
     margin-right: 30px;
 }
 
-.course-header-block_btnTitle-btn {
-    color: white;
-    background: #1F3444;
-    border-radius: 18px;
-    padding: 30px 22px;
-}
-
-.course-header-block_subsInfoBtn-subs {
+.course-user-header-block_subsInfoBtn-subs {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -44,15 +37,14 @@
     padding: 20px 15px;
 }
 
-.course-lessons-list-item {
+.course-user-lessons-list-item {
     background: #1F3444;
     border-radius: 15px;
     display: flex;
-    margin-right: -70%;
-    border-radius: 15px;
+    margin-right: -400px;
 }
 
-.course-lessons-list-item-title {
+.course-user-lessons-list-item-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -60,8 +52,7 @@
     line-height: 39px;
 }
 
-
-.course-header-block_subsInfoBtn-btn {
+.course-header-user-block_subsInfoBtn-btn {
     background: #D9D9D9;
     border-radius: 15px;
     font-family: 'Inter';
@@ -73,17 +64,17 @@
     padding: 20px 15px;
 }
 
-.course-lessons-list {
+.course-user-lessons-list {
     margin: 50px 50px;
 }
 
-.course-lessons-list-item {
+.course-user-lessons-list-item {
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
 }
 
-.course-lessons-list-item-title {
+.course-user-lessons-list-item-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -92,7 +83,7 @@
     color: #FFFFFF;
 }
 
-.course-lessons-list-item-btn {
+.course-user-lessons-list-item-btn {
     background: #D9D9D9;
     border-radius: 15px;
     font-family: 'Inter';
@@ -101,5 +92,5 @@
     font-size: 22px;
     line-height: 27px;
     color: #000000;
-    padding: 10px 10px;
+    padding: 10px 30px;
 }

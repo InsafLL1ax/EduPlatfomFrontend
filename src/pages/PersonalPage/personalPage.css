@@ -1,0 +1,38 @@
+.courseWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.course-personal-header-block {
+    display: flex;
+    margin: 50px;
+    gap: 200px;
+    margin-left: 600px;
+}
+
+.course-personal-header-block_btnTitle {
+    display: flex;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.course-personal-lessons-list {
+    margin: 440px 218px -529px 700px;
+}
+
+.course-personal-lessons-list-item {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #1F3444;
+}
+
+.course-personal-lessons-list-item-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+}

@@ -1,5 +1,5 @@
 .sideBar_wrapper{
-    width: 150px;
+    width: 100px;
     height: 1080px;
     background: #152749;
 }
@@ -7,16 +7,16 @@
 .sideBar-list-item-title{    
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 16px;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 12px;
     text-align: center;
     color: #FFFFFF;
 }
 
 .sideBar-list-item-logo{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     background: #D9D9D9;
     display: flex;
@@ -37,4 +37,36 @@
     flex-direction: column;
     align-items: center;
     gap:10px;
+}
+
+.sideBar-list-item:hover{
+    cursor: pointer;
+}
+
+.sideBar-list2{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.sideBar-list-item-logo2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideBar-list-item-title2{    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 8px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
 }

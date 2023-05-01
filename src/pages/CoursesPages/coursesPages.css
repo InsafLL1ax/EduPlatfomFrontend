@@ -3,21 +3,21 @@
     flex-direction: row;
 }
 
-.course-header-block {
+.courses-header-block {
     display: flex;
     margin: 50px 50px;
     gap: 200px;
 }
 
-.course-header-block_btnTitle {
+.courses-header-block_btnTitle {
     display: flex;
 }
 
-.course-header-block_subsInfoBtn {
+.courses-header-block_subsInfoBtn {
     display: flex;
 }
 
-.course-header-block_btnTitle-title {
+.courses-header-block_btnTitle-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -27,14 +27,14 @@
     margin-right: 30px;
 }
 
-.course-header-block_btnTitle-btn {
+.courses-header-block_btnTitle-btn {
     color: white;
     background: #1F3444;
     border-radius: 18px;
     padding: 30px 22px;
 }
 
-.course-header-block_subsInfoBtn-subs {
+.courses-header-block_subsInfoBtn-subs {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -43,23 +43,7 @@
     color: #000000;
     padding: 20px 15px;
 }
-
-.course-lessons-list-item {
-    background: #1F3444;
-    border-radius: 15px;
-    display: flex;
-}
-
-.course-lessons-list-item-title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
-}
-
-
-.course-header-block_subsInfoBtn-btn {
+.courses-header-block_subsInfoBtn-btn {
     background: #1F3444;
     border-radius: 15px;
     font-family: 'Inter';
@@ -71,28 +55,24 @@
     padding: 20px 15px;
     margin: 5% -650% 0% 620%;
 }
-
-.course-lessons-list {
-    margin: 220px 50px;
-}
-
-.course-lessons-list-item {
-    padding: 20px 50px;
+.courses-lessons-list-item {
+    background: #1F3444;
+    border-radius: 15px;
     display: flex;
-    justify-content: space-between;
+    margin: 266px -15px 10px 30px;
 }
 
-.course-lessons-list-item-title {
+.courses-lessons-list-item-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 0px;
     color: #FFFFFF;
-    margin-top: 13px
+    margin: 30px -51px 0px 72px;
 }
 
-.course-lessons-list-item-btn {
+.courses-lessons-list-item-btn {
     background: #D9D9D9;
     border-radius: 15px;
     font-family: 'Inter';
@@ -101,13 +81,11 @@
     font-size: 18px;
     line-height: 27px;
     color: #000000;
-    padding: 10px 10px;
-    margin-top: 43px;
-    margin-bottom: 90px;
-    margin-left: -218px;
+    padding: 10px 10px;   
+    margin: 71px -515px 92px -107px;
 }
 
-.course-lessons-list-item-btn2 {
+.courses-lessons-list-item-btn2 {
 
     background: #D9D9D9;
     border-radius: 15px;
@@ -115,9 +93,6 @@
     font-style: normal;
     font-size: 18px;
     line-height: 58px;
-    margin-top: 111px;
-    margin-bottom: 16px;
-    margin-left: -158px;
-    margin-right: 4px;
     padding: 0px 10px;
+    margin: 140px 0px 13px 368px;
 }
