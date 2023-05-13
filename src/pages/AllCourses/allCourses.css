@@ -3,61 +3,10 @@
     flex-direction: row;
 }
 
-.courses-header-block {
+.all-header-block {
     display: flex;
     margin: 50px 50px;
     gap: 200px;
-}
-
-.courses-header-block_btnTitle {
-    display: flex;
-}
-
-.courses-header-block_subsInfoBtn {
-    display: flex;
-}
-
-.courses-header-block_subsInfoBtn:hover {
-      cursor: pointer;
-}
-
-.courses-header-block_btnTitle-title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 77px;
-    color: #000000;
-    margin-right: 30px;
-}
-
-.courses-header-block_btnTitle-btn {
-    color: white;
-    background: #06012d;
-    border-radius: 18px;
-    padding: 30px 22px;
-}
-
-.courses-header-block_subsInfoBtn-subs {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
-    color: #000000;
-    padding: 20px 15px;
-}
-.courses-header-block_subsInfoBtn-btn {
-    background: #06012d;
-    /* font-family: 'Inter';
-    font-style: normal; */
-    border-radius: 15px;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 14px;
-    color: #FFFFFF;
-    padding: 3px 16px;
-    margin: 5% 0% 0% 220%;
 }
 
 .all-header-block{
@@ -75,20 +24,81 @@
     margin-bottom: 0px;
 }
 
-.courses-lessons-list {
+.all-content-form-inputs{
+    display: flex;
+    justify-content: center; 
+    margin-top: 5%; 
+    margin-left: 190%; 
+}
+.all-content-form-input-serach{
+    padding-right: 200px;
+}
+
+.all-header-block_btnTitle {
+    display: flex;
+}
+
+.all-header-block_subsInfoBtn {
+    display: flex;
+}
+
+.all-header-block_subsInfoBtn:hover {
+      cursor: pointer;
+}
+
+.all-header-block_btnTitle-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+    margin-right: 30px;
+}
+
+.all-header-block_btnTitle-btn {
+    color: white;
+    background: #06012d;
+    border-radius: 18px;
+    padding: 30px 22px;
+}
+
+.all-header-block_subsInfoBtn-subs {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    padding: 20px 15px;
+}
+.all-header-block_subsInfoBtn-btn {
+    background: #06012d;
+    /* font-family: 'Inter';
+    font-style: normal; */
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 10px 16px;
+    margin: 0% 0% 0% 10%;
+}
+
+.all-lessons-list{
 flex-direction: row;
 display: flex;
 }
 
-.courses-lessons-list-item {
+.all-lessons-list-item {
     background: #06012d;
     border-radius: 15px;
     text-align: center;
     margin: 200px 30px 0px 60px;
-    padding: 25px 30px;
+    padding: 25px 20px;
 }
 
-.courses-lessons-list-item-title {
+.all-lessons-list-item-title {
     font-family: 'Inter';
     font-style: normal;
     border-radius: 15px;
@@ -99,7 +109,7 @@ display: flex;
     padding: 10px 16px;
 }
 
-.courses-lessons-list-item-btn {
+.all-lessons-list-item-btn {
     background: #D9D9D9;
     border-radius: 15px;
     /* font-family: 'Inter';
@@ -111,11 +121,11 @@ display: flex;
     color: #000000;
 }
 
-.courses-lessons-list-item-btn:hover {
+.all-lessons-list-item-btn:hover {
     cursor: pointer;
 }
 
-.courses-lessons-list-item-btn2 {
+.all-lessons-list-item-btn2 {
     background: #D9D9D9;
     /* font-family: 'Inter';
     font-style: normal; */
@@ -129,19 +139,30 @@ display: flex;
     margin-bottom: 10px;
 }
 
-.courses-lessons-list-item-btn2:hover {
+.all-lessons-list-item-btn2:hover {
     cursor: pointer;
 }
 
-.courses-lessons-list-item2 {
+.all-lessons-list-item-autor {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #ffffff;
+    padding: 0px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* tut 2 */
+.all-lessons-list-item2 {
     background: #06012d;
     border-radius: 15px;
     text-align: center;
     margin: 200px 30px 0px 30px;
-    padding: 25px 30px;
+    padding: 25px 20px;
 }
 
-.courses-lessons-list-item-title2 {
+.all-lessons-list-item-title2 {
     font-family: 'Inter';
     font-style: normal;
     border-radius: 15px;
@@ -152,7 +173,7 @@ display: flex;
     padding: 10px 32px;
 }
 
-.courses-lessons-list-item2-btn {
+.all-lessons-list-item2-btn {
     background: #D9D9D9;
     border-radius: 15px;
     /* font-family: 'Inter';
@@ -164,11 +185,11 @@ display: flex;
     color: #000000;
 }
 
-.courses-lessons-list-item2-btn:hover {
+.all-lessons-list-item2-btn:hover {
     cursor: pointer;
 }
 
-.courses-lessons-list-item2-btn2 {
+.all-lessons-list-item2-btn2 {
 
     background: #D9D9D9;
     /* font-family: 'Inter';
@@ -181,4 +202,18 @@ display: flex;
     padding: 0px 16px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.all-lessons-list-item2-btn2:hover {
+    cursor: pointer;
+}
+.all-lessons-list-item2-autor {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #ffffff;
+    padding: 0px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }

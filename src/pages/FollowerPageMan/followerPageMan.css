@@ -3,20 +3,20 @@
     flex-direction: row;
 }
 
-.course-personal-header-block {
+.followerlPageMan-header-block {
     display: flex;
     margin: 20px;
     gap: 200px;
     margin-left: 60px;
 }
 
-.course-personal-header-block_btnTitle {
+.followerlPageMan-header-block_btnTitle {
     display: flex;
     font-size: 30px;
     line-height: 77px;
 }
 
-.course-personal-info{
+.followerlPageMan-info{
     display: flex;
     flex-direction: row;
     font-size: 20px;
@@ -24,56 +24,48 @@
    
 }
 
-.course-personal-infomaton{
+.followerlPageMan-infomaton{
     margin-left: 10%;
 }
 
-.course-personal-infomaton-name{
+.followerlPageMan-infomaton-name{
     margin-top: 30px;
 }
 
-.course-personal-infomaton-sirname{
+.followerlPageMan-infomaton-sirname{
     margin-top: 10px;
 }
 
-.course-personal-infomaton-sex{
+.followerlPageMan-infomaton-sex{
     margin-top: 10px;
 }
 
-.course-personal-infomaton-age{
+.followerlPageMan-infomaton-age{
     margin-top: 10px;
 }
 
-.course-personal-infomation{
+.followerlPageMan-infomation{
     margin-left: 10%;
     gap: 200px;
 }
 
 
-.course-personal_page{
+.followerlPageMan_page{
     display: flex;
     margin: 0px;
     gap: 200px;
     margin-left: 60px;
 }
 
-.course-personal-lessons-list {
+.followerlPageMan-lessons-list {
     margin: 440px 218px 0px 700px;
 
 }
 
-.course-personal-lessons-list-item {
+.followerlPageMan-lessons-list-item {
     display: flex;
     justify-content: space-between;
     background: #06012d;
     border-radius: 15px;
 }
 
-.course-personal-lessons-list-item-title {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 38px;
-    color: #FFFFFF;
-    padding: 0px 16px;
-   
-}

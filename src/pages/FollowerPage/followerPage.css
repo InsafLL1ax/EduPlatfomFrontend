@@ -1,0 +1,143 @@
+.courseWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.follower-header-block {
+    display: flex;
+    margin: 50px 0px 0px 50px;
+    gap: 200px;
+}
+
+.follower-header-block_btnTitle {
+    display: flex;
+}
+
+.follower-header-block_btnTitle-title {
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;
+    font-size: 30px;
+    line-height: 77px;
+    color: #000000;
+    margin-right: 30px;
+}
+
+.follower-header-block_btnTitle-btn:hover 
+{  cursor: pointer;
+}
+
+.follower-header-block_subsInfoBtn {
+    display: flex;
+}
+
+.follower-header-block_subsInfoBtn-subs {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    padding: 20px 15px;
+}
+
+.follower-header-block_subsInfoBtn-btn {
+    background: #D9D9D9;
+    border-radius: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    padding: 20px 15px;
+}
+
+.follower-lessons-list {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap:20px;
+    margin-left: 45px;
+}
+
+.follower-lessons-list-item {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap:10px;
+}
+
+.follower-lessons-list-item2 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap:10px;
+}
+
+.follower-lessons-list-item3 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap:10px;
+}
+
+.follower-lessons-item-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.follower-lessons-list-item-btn {
+        background: #06012d;
+        border-radius: 15px;
+        /* font-family: 'Inter'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 38px;
+        color: #ffffff;
+        padding: 0px 8px;
+        margin-left: 20%;
+}
+
+.follower-lessons-list-item-btn:hover {
+    cursor: pointer;
+}
+
+.follower-lessons-list-item-btn2 {
+    background: #06012d;
+    border-radius: 15px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #ffffff;
+    padding: 0px 8px;
+    margin-left: 20%;
+}
+.follower-lessons-list-item-btn2:hover {
+    cursor: pointer;
+}
+
+.follower-lessons-list-item-btn3 {
+    background: #06012d;
+    border-radius: 15px;
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #ffffff;
+    padding: 0px 8px;
+    margin-left: 20%;
+}
+.follower-lessons-list-item-btn3:hover {
+    cursor: pointer;
+}

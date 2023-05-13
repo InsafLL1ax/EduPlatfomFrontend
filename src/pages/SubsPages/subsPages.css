@@ -3,25 +3,25 @@
     flex-direction: row;
 }
 
-.courses-header-block {
+.subs-header-block {
     display: flex;
     margin: 50px 50px;
     gap: 200px;
 }
 
-.courses-header-block_btnTitle {
+.subs-header-block_btnTitle {
     display: flex;
 }
 
-.courses-header-block_subsInfoBtn {
+.subs-header-block_subsInfoBtn {
     display: flex;
 }
 
-.courses-header-block_subsInfoBtn:hover {
+.subs-header-block_subsInfoBtn:hover {
       cursor: pointer;
 }
 
-.courses-header-block_btnTitle-title {
+.subs-header-block_btnTitle-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -31,14 +31,14 @@
     margin-right: 30px;
 }
 
-.courses-header-block_btnTitle-btn {
+.subs-header-block_btnTitle-btn {
     color: white;
     background: #06012d;
     border-radius: 18px;
     padding: 30px 22px;
 }
 
-.courses-header-block_subsInfoBtn-subs {
+.subs-header-block_subsInfoBtn-subs {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -47,7 +47,7 @@
     color: #000000;
     padding: 20px 15px;
 }
-.courses-header-block_subsInfoBtn-btn {
+.subs-header-block_subsInfoBtn-btn {
     background: #06012d;
     /* font-family: 'Inter';
     font-style: normal; */
@@ -56,8 +56,8 @@
     font-size: 15px;
     line-height: 14px;
     color: #FFFFFF;
-    padding: 3px 16px;
-    margin: 5% 0% 0% 220%;
+    padding: 3px 30px;
+    margin: 5% 0% 0% 215%;
 }
 
 .all-header-block{
@@ -75,20 +75,20 @@
     margin-bottom: 0px;
 }
 
-.courses-lessons-list {
+.subs-lessons-list{
 flex-direction: row;
 display: flex;
 }
 
-.courses-lessons-list-item {
+.subs-lessons-list-item {
     background: #06012d;
     border-radius: 15px;
     text-align: center;
     margin: 200px 30px 0px 60px;
-    padding: 25px 30px;
+    padding: 25px 20px;
 }
 
-.courses-lessons-list-item-title {
+.subs-lessons-list-item-title {
     font-family: 'Inter';
     font-style: normal;
     border-radius: 15px;
@@ -99,7 +99,7 @@ display: flex;
     padding: 10px 16px;
 }
 
-.courses-lessons-list-item-btn {
+.subs-lessons-list-item-btn {
     background: #D9D9D9;
     border-radius: 15px;
     /* font-family: 'Inter';
@@ -111,11 +111,11 @@ display: flex;
     color: #000000;
 }
 
-.courses-lessons-list-item-btn:hover {
+.subs-lessons-list-item-btn:hover {
     cursor: pointer;
 }
 
-.courses-lessons-list-item-btn2 {
+.subs-lessons-list-item-btn2 {
     background: #D9D9D9;
     /* font-family: 'Inter';
     font-style: normal; */
@@ -129,19 +129,30 @@ display: flex;
     margin-bottom: 10px;
 }
 
-.courses-lessons-list-item-btn2:hover {
+.subs-lessons-list-item-btn2:hover {
     cursor: pointer;
 }
 
-.courses-lessons-list-item2 {
+.subs-lessons-list-item-autor {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #ffffff;
+    padding: 0px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* tut 2 */
+.subs-lessons-list-item2 {
     background: #06012d;
     border-radius: 15px;
     text-align: center;
     margin: 200px 30px 0px 30px;
-    padding: 25px 30px;
+    padding: 25px 20px;
 }
 
-.courses-lessons-list-item-title2 {
+.subs-lessons-list-item-title2 {
     font-family: 'Inter';
     font-style: normal;
     border-radius: 15px;
@@ -152,7 +163,7 @@ display: flex;
     padding: 10px 32px;
 }
 
-.courses-lessons-list-item2-btn {
+.subs-lessons-list-item2-btn {
     background: #D9D9D9;
     border-radius: 15px;
     /* font-family: 'Inter';
@@ -164,11 +175,11 @@ display: flex;
     color: #000000;
 }
 
-.courses-lessons-list-item2-btn:hover {
+.subs-lessons-list-item2-btn:hover {
     cursor: pointer;
 }
 
-.courses-lessons-list-item2-btn2 {
+.subs-lessons-list-item2-btn2 {
 
     background: #D9D9D9;
     /* font-family: 'Inter';
@@ -181,4 +192,18 @@ display: flex;
     padding: 0px 16px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.subs-lessons-list-item2-btn2:hover {
+    cursor: pointer;
+}
+.subs-lessons-list-item2-autor {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 38px;
+    color: #ffffff;
+    padding: 0px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }

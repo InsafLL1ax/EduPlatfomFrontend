@@ -1,31 +1,36 @@
 .sideBar_wrapper{
     width: 100px;
-    height: 1080px;
-    background: #152749;
+    height: 100vh;
+    background: #06012d;
+}
+
+.sideBar-list-item-general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap:10px; */
+}
+
+.sideBar-list-item-logo-general{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start; 
 }
 
 .sideBar-list-item-title{    
-    font-family: 'Inter';
-    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-style: normal; */
     font-weight: 100;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 12px;
     text-align: center;
     color: #FFFFFF;
 }
 
-.sideBar-list-item-logo{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    background: #D9D9D9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .sideBar-list{
-    padding-top: 50px;
+    /* padding-top: 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +49,7 @@
 }
 
 .sideBar-list2{
-    padding-top: 30px;
+    padding-top: 140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,6 +64,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sideBar-list-item2{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap:10px;
 }
 
 .sideBar-list-item-title2{    
